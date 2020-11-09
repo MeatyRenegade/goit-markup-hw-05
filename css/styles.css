@@ -84,7 +84,26 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--header-color);
-  padding-right: 50px;
+}
+
+.logo-box-top > .main-nav > li > a {
+  position: relative;
+  padding-top: 28px;
+  padding-bottom: 28px;
+}
+
+.logo-box-top > .main-nav > li > a:hover::after,
+.logo-box-top > .main-nav > li > a:focus::after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--hover-color);
+  z-index: 99;
 }
 
 .link-footer {
@@ -119,6 +138,7 @@ body {
 }
 
 .header-topline-box {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -126,7 +146,6 @@ body {
 }
 
 .main-header {
-  height: 80px;
   background-color: var(--fill-in-color);
   border-bottom: 1px solid #ececec;
 }
@@ -168,6 +187,7 @@ body {
   box-shadow: 0px 4px 4px var(--header-color);
   border-radius: 4px;
   color: var(--fill-in-color);
+  cursor: pointer;
 }
 
 .hero-button:hover {
@@ -189,6 +209,7 @@ body {
   padding-bottom: 6px;
   padding-left: 22px;
   margin-right: 8px;
+  cursor: pointer;
 }
 
 .filter-button:hover {
@@ -306,13 +327,21 @@ body {
   align-items: flex-start;
 }
 
+.main-nav-item {
+  padding-right: 50px;
+}
+
+.main-nav-item:last-child {
+  padding-right: 0;
+}
+
 .logo-box {
   margin-bottom: 20px;
 }
 
 .logo-box-top {
-  margin-top: 24px;
-  margin-bottom: 25px;
+  /* margin-top: 24px;
+  margin-bottom: 25px; */
   display: flex;
   align-items: center;
 }
