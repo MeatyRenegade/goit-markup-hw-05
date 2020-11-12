@@ -381,13 +381,13 @@ body {
   /* overflow: hidden; */
 }
 
-.project-overlay {
+/* .project-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: var(--hover-color);
+  background-color: var(--hover-color); */
 
   /* transform: translatex(-100%);
   transition: transform 250ms ease; */
