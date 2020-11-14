@@ -243,11 +243,6 @@ body {
   background-position: center;
 }
 
-.modal-close-btn-icon:hover,
-.modal-close-btn-icon:focus {
-  fill: var(--hover-color);
-}
-
 .filter-button {
   font-weight: 500;
   font-size: 16px;
