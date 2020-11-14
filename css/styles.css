@@ -237,10 +237,9 @@ body {
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: transparent;
-  background-image: url(../img/modal-close-button.svg);
+  background-image: url(../img/modal-close-btn.svg);
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #fff;
 }
 
 .filter-button {
